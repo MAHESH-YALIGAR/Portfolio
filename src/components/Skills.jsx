@@ -306,6 +306,47 @@ const Skills = () => {
         </div>
 
         {/* ============================= */}
+        {/* Achievements */}
+        {/* ============================= */}
+
+        <motion.div
+          initial={{ opacity: 0, y: 40 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          className="mt-24"
+        >
+          <h3 className="mb-10 text-center text-4xl font-black">
+            Achievements & Awards
+          </h3>
+
+          <div className="grid gap-8 md:grid-cols-2">
+            <div className="rounded-3xl border border-cyan-500/20 bg-cyan-500/10 p-8">
+              <span className="text-sm font-semibold uppercase tracking-[0.2em] text-cyan-400">
+                2st Prize
+              </span>
+              <h4 className="mt-4 text-2xl font-bold">
+                JSS Mysore College Hackathon
+              </h4>
+              <p className="mt-4 leading-7 text-gray-400">
+                Won 2st prize for the project <span className="font-semibold text-white">Email Spam Detection</span>.
+              </p>
+            </div>
+
+            <div className="rounded-3xl border border-purple-500/20 bg-purple-500/10 p-8">
+              <span className="text-sm font-semibold uppercase tracking-[0.2em] text-purple-400">
+                Top 5 Shortlist
+              </span>
+              <h4 className="mt-4 text-2xl font-bold">
+                GM University, Davanagere
+              </h4>
+              <p className="mt-4 leading-7 text-gray-400">
+                Shortlisted among the top 5 for the project <span className="font-semibold text-white">Google Service Automation using Agentic AI</span>.
+              </p>
+            </div>
+          </div>
+        </motion.div>
+
+        {/* ============================= */}
         {/* Experience Timeline */}
         {/* ============================= */}
 

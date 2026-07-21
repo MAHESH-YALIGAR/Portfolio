@@ -162,7 +162,7 @@ const Hero = () => {
 
             </div>
 
-            <div>
+            {/* <div>
 
               <h2 className="text-4xl font-black text-cyan-400">
                 15+
@@ -172,7 +172,7 @@ const Hero = () => {
                 Technologies
               </p>
 
-            </div>
+            </div> */}
 
             <div>
 
