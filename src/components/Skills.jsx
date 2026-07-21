@@ -325,7 +325,7 @@ const Skills = () => {
                 2st Prize
               </span>
               <h4 className="mt-4 text-2xl font-bold">
-                JSS Mysore College Hackathon
+                JSS  College Mysore
               </h4>
               <p className="mt-4 leading-7 text-gray-400">
                 Won 2st prize for the project <span className="font-semibold text-white">Email Spam Detection</span>.
