@@ -57,7 +57,7 @@ const projectData = [
     github:
       "https://github.com/MAHESH-YALIGAR/MiniDrive-AWS-Service",
 
-    live: "",
+    live: "https://minidrive-aws-frontend.onrender.com/",
 
     technologies: [
       "React",
